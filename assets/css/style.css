@@ -74,3 +74,16 @@ section {
 .blog-content {
 	margin: 0 30px;
 }
+
+.contact-form {
+	margin: 30px 30px;
+}
+
+.form-row {
+	margin-bottom: 1rem;
+}
+
+.form-content {
+	height: 300px;
+	padding-top: 0;
+}
