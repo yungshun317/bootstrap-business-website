@@ -1,14 +1,18 @@
 /*------------------------------------------------
 # General
 ------------------------------------------------*/
-body {
+html {
+	font-size: 16px;
+}
 
+body {
+	background-image: url("../img/RedBackground.png");
 }
 
 a {
 	color: #DD0000;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1em;
+	font-size: 1rem;
 }
 
 a:hover {
@@ -18,19 +22,23 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
 	color: #DD0000;
 	font-family: 'Open Sans', sans-serif;
+	margin-top: 0;
+	margin-bottom: 1.5rem;
 }
 
 h1 {
-	font-size: 3em;
+	font-size: 3rem;
 }
 
 h2 {
-	font-size: 2.5em;
+	font-size: 2.5rem;
 }
 
 p {
 	color: #FFFFFF;
 	font-family: 'Montserrat', sans-serif;
+	margin-top: 0;
+	margin-bottom: 1.5rem;
 	opacity: 0.8;
 }
 
@@ -43,6 +51,7 @@ p {
 
 .navbar {
 	width: 100%;
+	height: 4.375rem;
 }
 
 /*------------------------------------------------
@@ -53,27 +62,29 @@ section {
 }
 
 /*------------------------------------------------
+# Buttons
+------------------------------------------------*/
+.btn-danger {
+	color: #FFFFFF !important;
+    background-color: #DD0000 !important;
+}
+
+.btn-danger:hover {
+	color: #DD0000 !important;
+	border-color: #DD0000 !important;
+    background-color: transparent !important;
+}
+
+/*------------------------------------------------
 # Hero
 ------------------------------------------------*/
 .hero {
-	margin-top: 0;
 	width: 100%;
-	height: 900px;
-	background: url(https://picsum.photos/1920) top center no-repeat;
+	height: 56.25rem;
+	margin-top: 0;
+	background: url("../img/fire-sunset-FZM7PSU-Red.png") top center no-repeat;
 }
 
-/*
-.hero .btn-get-started {
-	margin-top: 30px;
-    line-height: 0;
-    padding: 15px 40px;
-    border-radius: 4px;
-    transition: 0.5s;
-    color: #fff;
-    background: #4154f1;
-    box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
-}
-*/
 
 #about {
 }
