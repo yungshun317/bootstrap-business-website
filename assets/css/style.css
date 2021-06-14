@@ -46,6 +46,10 @@ p {
 	opacity: 0.8;
 }
 
+.container {
+	max-width: 90rem;
+}
+
 /*------------------------------------------------
 # Header
 ------------------------------------------------*/
@@ -102,9 +106,6 @@ section {
 	background: url("../img/fire-sunset-FZM7PSU-Red.png") top center no-repeat;
 }
 
-/*------------------------------------------------
-# Icons
-------------------------------------------------*/
 .design-block {
 	margin-top: 0 !important;
 	margin-bottom: 0 !important;
@@ -113,6 +114,18 @@ section {
 	font-size: 5.625rem;
 	color: #DD0000;
 }
+
+/*------------------------------------------------
+# Tabs
+------------------------------------------------*/
+.nav-tabs a {
+	font-size: 2rem;
+}
+
+.nav-link {
+	padding: 0;
+}
+
 
 .portfolio-row {
 	margin-top: 30px;
