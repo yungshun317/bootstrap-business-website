@@ -106,6 +106,10 @@ section {
 	background: url("../img/fire-sunset-FZM7PSU-Red.png") top center no-repeat;
 }
 
+.hero-content p {
+	font-size: 1.5rem;
+}
+
 .design-block {
 	margin-top: 0 !important;
 	margin-bottom: 0 !important;
@@ -140,6 +144,27 @@ section {
     background-color: transparent !important;
 }
 
+/*------------------------------------------------
+# Portfolio
+------------------------------------------------*/
+
+.portfolio-nav {
+	margin-bottom: 1.5rem;
+}
+
+.portfolio-nav a.nav-link {
+	padding-right: 1.5rem;
+    padding-left: 1.5rem;
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5rem;
+	opacity: 0.8;
+}
+
+.portfolio-nav a.nav-link.active {
+	border: 1px solid #DD0000;
+	border-radius: 1.5rem;
+}
 
 .portfolio-row {
 	margin-top: 30px;
