@@ -120,7 +120,6 @@ section {
 	color: #DD0000;
 }
 
-
 .blog-row {
 	margin-bottom: 1.875rem;
 }
@@ -152,6 +151,15 @@ section {
 
 .btn-pricing-card {
 	margin-top: 1.5rem;
+}
+
+.contact-icon {
+    font-size: 5.625rem;
+	color: #DD0000;
+}
+
+.contact-block {
+	border: 1px solid #FFFFFF;
 }
 
 /*------------------------------------------------
