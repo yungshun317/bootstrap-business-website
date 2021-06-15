@@ -153,13 +153,30 @@ section {
 	margin-top: 1.5rem;
 }
 
+.contact-row {
+	margin-bottom: 1.875rem;
+}
+
 .contact-icon {
-    font-size: 5.625rem;
+	margin-top: 1.5rem;
 	color: #DD0000;
+    font-size: 5.625rem;
 }
 
 .contact-block {
+	height: 100%;
+	padding-right: 1.5rem;
+	padding-left: 1.5rem;
 	border: 1px solid #FFFFFF;
+}
+
+.contact-form-block {
+	height: 100%;
+	border: 1px solid #FFFFFF;
+}
+
+textarea {
+	padding-top: 0.5rem !important;
 }
 
 /*------------------------------------------------
